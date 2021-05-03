@@ -1,12 +1,8 @@
-import React from 'react';
+import React from "react";
 
 const Footer = () => (
   <footer>
-    <p>
-      &copy; notes.dot.kitchen
-      {' '}
-      {new Date().getFullYear()}
-    </p>
+    <p>&copy; notes.dot.kitchen {new Date().getFullYear()}</p>
   </footer>
 );
 
