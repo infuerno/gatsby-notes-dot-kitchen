@@ -1,0 +1,16 @@
+{
+  "name": "posts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "export": "ghost-to-md notes-dot-kitchen.ghost.json"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ghost-to-md": "^1.3.0"
+  }
+}
